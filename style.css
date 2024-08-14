@@ -1,0 +1,526 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+   
+}
+
+button {
+    padding: 10px 20px;
+        background-color: #4caf4f;
+        color: white;
+        border: none;
+        border-radius: 8px;
+}
+
+button:hover {
+    background-color: #18191F;
+}
+
+.navigation {
+    width: 100%;
+    height: 84px;
+    display: flex;
+    padding: 0px 50px;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    z-index: 99;
+    background-color: white;
+}
+
+.links {
+   
+    
+    a{
+        text-decoration: none;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        color: #18191F;
+        margin-left: 50px;
+    
+    }
+}
+
+.cta {
+    
+    margin-left: 50px;
+   
+    
+    a{
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+        color: #4caf4f;
+        padding: 10px 20px;
+        text-decoration: none;
+    }
+
+
+    .bt{
+        padding: 10px 20px;
+        background-color: #4caf4f;
+        color: white;
+        border: none;
+        width: 91px;
+        height: 40px;
+        border-radius: 6px;
+    }
+   
+    
+}
+
+
+/* Hero Section  */
+
+.hero-section {
+        width: 100%;
+        /* height: 100vh; */
+}
+span{
+    color: #4caf4f;
+}
+    
+
+.contain {
+    width: 100%;
+    height: 599px;
+    padding: 90px;
+    padding-top: 150px;
+    background-color: #F5F7FA;
+    display: flex;
+     justify-content: space-between;
+    
+}
+
+.lesson{
+    height: 276px;
+    width: 657px;
+    position: relative;
+
+    h1{
+        font-weight: 600;
+        font-size: 64px;
+        line-height: 76px;
+        color:black ;
+    }
+    p {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: #717171;
+    }
+
+       
+       
+    button{
+        width: 128px;
+        height: 52px;
+        padding: 14px 32px;
+        background-color: #4caf4f;
+        color: white;
+        border-radius: 4px;
+        position: absolute;
+        bottom: 0px;
+
+        button :hover{
+            background-color: #18191F;
+        }
+    
+    }
+}
+    
+
+
+.lesson-img img {
+    width: 391px;
+}
+
+.our {
+    width: 100%;
+    height: 190px;
+    padding: 0px 144px;
+}
+
+.our-client {
+    text-align: center;
+    h2 {
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 44px;
+        color: #4d4d4d;
+    }
+    p {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: #717171;
+    }
+}
+.our-image {
+    width: 100%;
+    
+}
+
+.membership {
+    width: 100%;
+    height: 400px;
+    padding: 0px 144px;
+
+    h2{
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 44px;
+        color: #4d4d4d;
+    }
+
+    p {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: #717171;
+    }
+}
+
+.manage {
+    text-align: center;
+    
+    h2{
+        text-align: center;
+        width: 542px;
+        height: 88px;
+        display: block;
+        margin: auto;
+    }
+}
+
+.box {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 10px;
+    img{
+        display: block;
+        margin: auto;
+    }
+    
+   
+    .M{
+        height: 260px;
+        width: 299px;
+        border-radius: 8px;
+        gap: 8px;
+        padding: 24px 32px;
+        background-color: white;
+        box-shadow: 0px 2px 4px 0px #ABBED133;
+
+       
+    }
+
+    .N {
+        height: 260px;
+        width: 299px;
+        border-radius: 8px;
+        gap: 8px;
+        padding: 24px 32px;
+        background-color: white;
+        box-shadow: 0px 2px 4px 0px #ABBED133;
+
+    }
+
+    .C {
+        height: 260px;
+        width: 299px;
+        border-radius: 8px;
+        gap: 8px;
+        padding: 24px 32px;
+        background-color: white;
+        box-shadow:5px  #abbed1;
+        box-shadow: 0px 2px 4px 0px #ABBED133;
+
+    }
+}
+
+.hero2 {
+    width: 100%;
+}
+
+.frame {
+    width: 100%;
+    height: 433px;
+    padding: 0px 144px;
+    
+
+    h2{
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 44px;
+        color: #4d4d4d;
+    }
+
+    p {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: #717171;
+    }
+}
+
+.fram {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.the {
+    height: 268px;
+    width: 661px;
+    position: relative;
+    margin-top: 50px;
+
+    button{
+        width: 151px;
+        height: 52px;
+        padding: 14px 32px;
+        background-color: #4caf4f;
+        color: white;
+        border-radius: 4px;
+        position: absolute;
+        bottom: 0px;
+        /* position: absolute;
+        bottom: 0px; */
+
+        button :hover{
+            background-color: #18191F;
+        }
+    
+           
+    }
+}
+
+.hero3 {
+    width: 100%;
+    height: 288px;
+    padding: 64px 144px;
+    background-color: #F5F7FA;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+.help {
+    height:41.67px;
+    width: 180.29px; 
+}
+
+.img {
+   width: 350.35px;
+   /* height: 300px; */
+}
+
+.hero4 {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 503.4px;
+    padding: 64px 144px;
+    
+}
+
+
+.how-to {
+   height: 350px;
+    position: relative;
+    margin-left: 30px;
+    margin-top: 20px;
+    
+    h2 {
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 44px;
+        color: #4d4d4d;
+        padding-bottom: 20px;
+    }
+    p {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: #717171;
+    }
+
+    button {
+        position:absolute;
+        bottom:0px;
+    }
+}
+
+.hero5{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 390px;
+    background-color: #F5F7FA;
+    padding: 32px 144px;
+   
+}
+
+.tesla img {
+    width: 362px;
+    border-radius: 8px;
+    box-shadow: 0px 8px 16px 0px #ABBED166;
+    margin-right: 50px;
+
+}
+
+.Maecenas {
+    width: 748px;
+    height: 324px;
+    gap: 32px;
+    position: relative;
+    
+
+    p{
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        color: #717171;
+    }
+    h2{
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 28px;
+        color: #4caf4f;
+        margin: 20px 0px;
+    }
+    img{
+        width: 748px;
+        position: absolute;
+        bottom:0px;
+       
+    }
+}
+
+.hero6 {
+    margin-top: 50px;
+    width: 100%;
+    height: 506px;
+}
+
+.care {
+    text-align: center;
+    margin-bottom: 20px;
+   
+
+    h2{
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 44px;
+        color: #4d4d4d;
+    }
+
+    p{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: #717171;
+    }
+}
+
+footer{
+    width: 100%;
+    height: 628px;
+}
+
+.foot {
+    height: 300px;
+    width: 100%;
+    padding: 32px 0px;
+    background-color: #F5F7FA;
+    display: flex;
+    justify-content: center;
+   
+    position: relative;
+
+   
+    p{
+        width: 887px;
+        height: 152px;
+        font-weight: 600;
+        font-size: 64px;
+        line-height: 76px;
+        color: #263238;
+        text-align: center;
+        
+    }
+    button {
+        padding: 10px 20px;
+            background-color: #4caf4f;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            position: absolute;
+            bottom: 20px;
+           
+    }
+    
+    button:hover {
+        background-color: #18191F;
+    }
+}
+
+.foott {
+    height: 328px;
+    width: 100%;
+    padding: 64px 165px;
+    background: #263238;
+
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+
+    a {
+        text-decoration: none;
+        color: white;
+        margin-left: 150px;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 28px;
+
+    }
+}
+
+.social-flex{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.social {
+    margin-top: 30px;
+ p{
+    margin-bottom: 50px;
+    font-weight: 400px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #F5F7FA;
+ }
+}
+.ul{
+    display: flex;
+    flex-direction: column;
+    
+    a{
+        text-decoration: none;
+        color:#F5F7FA;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        margin: 10px;
+        /* margin-left: 50px; */
+    }
+}
